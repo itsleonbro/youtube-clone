@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0"
     />
-
+    <link rel="shortcut icon" href="./assets/" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <title>YouTube</title>
   </head>
@@ -27,9 +27,9 @@
       <!-- search bar -->
       <div class="searchbar">
         <div class="search">
-          <input type="text" />
+          <input type="text" placeholder="Search"/>
           <button>
-            <span class="material-symbols-outlined"> search </span>
+            <span class="material-symbols-outlined search-btn"> search </span>
           </button>
         </div>
         <div class="microphone">
@@ -88,6 +88,15 @@
             <span class="material-symbols-outlined"> schedule </span> Watch
             Later
           </span>
+
+          <span class="category">
+            <span class="material-symbols-outlined"> thumb_up </span> Liked
+            Videos
+          </span>
+
+          <span class="category">
+            <span class="material-symbols-outlined"> download </span> Downloads
+          </span>
         </div>
 
         <div class="category-section">
@@ -103,203 +112,248 @@
             <span class="material-symbols-outlined"> help </span> Help
           </span>
         </div>
+
+        <div class="footer category-section">
+          <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Press</a>
+            <a href="#">Copyright</a>
+            <a href="#">Contact us</a>
+            <a href="#">Creators</a>
+            <a href="#">Advertise</a>
+            <a href="#">Developers</a>
+          </div>
+          <div class="footer-links">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Policy & Safety</a>
+            <a href="#">How YouTube works</a>
+            <a href="#">Test new features</a>
+          </div>
+        </div>
+
+        <div class="disclaimer">
+          <p>
+            Designed by
+            <a href="https://itsleon.dev" target="_blank">Leon Hlabathi</a>, for
+            study purposes
+          </p>
+        </div>
       </div>
 
       <!-- uploaded videos -->
-      <div class="videos">
-        <div class="video-layout">
-          <div class="video">
-            <div class="thumbnail">
-              <img
-                src="./assets/thumbnails/throttle-house-thumbnail.jpg"
-                alt=""
-              />
-            </div>
-
-            <div class="details">
-              <div class="channel-avatar">
-                <img src="./assets/channel-avatars/throttle-house.jpg" />
+      <div class="video-section">
+        <div class="topics">
+          <a href="#">All</a>
+          <a href="#">Test drives</a>
+          <a href="#">Computer Programming</a>
+          <a href="#">Sports Cars</a>
+          <a href="#">Graphic Design</a>
+          <a href="#">Music</a>
+          <a href="#">Gaming</a>
+          <a href="#">Podcast</a>
+          <a href="#">Video Editing Software</a>
+          <a href="#">Computer Hardware</a>
+          <a href="#">Visual Effects</a>
+          <a href="#">Contemporary R&B</a>
+          <a href="#">Watched</a>
+          <a href="#">New to you</a>
+        </div>
+        <div class="videos">
+          <div class="video-layout">
+            <div class="video">
+              <div class="thumbnail">
+                <img
+                  src="./assets/thumbnails/throttle-house-thumbnail.jpg"
+                  alt=""
+                />
               </div>
-              <div class="video-info">
-                <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
-                <p class="video-channel-name">Extra Throttle House</p>
-                <p class="video-views">304K Views • 2 days ago</p>
+
+              <div class="details">
+                <div class="channel-avatar">
+                  <img src="./assets/channel-avatars/throttle-house.jpg" />
+                </div>
+                <div class="video-info">
+                  <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
+                  <p class="video-channel-name">Extra Throttle House</p>
+                  <p class="video-views">304K Views • 2 days ago</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="video-layout">
-          <div class="video">
-            <div class="thumbnail">
-              <img
-                src="./assets/thumbnails/throttle-house-thumbnail.jpg"
-                alt=""
-              />
-            </div>
-
-            <div class="details">
-              <div class="channel-avatar">
-                <img src="./assets/channel-avatars/throttle-house.jpg" />
+          <div class="video-layout">
+            <div class="video">
+              <div class="thumbnail">
+                <img
+                  src="./assets/thumbnails/throttle-house-thumbnail.jpg"
+                  alt=""
+                />
               </div>
-              <div class="video-info">
-                <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
-                <p class="video-channel-name">Extra Throttle House</p>
-                <p class="video-views">304K Views • 2 days ago</p>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="video-layout">
-          <div class="video">
-            <div class="thumbnail">
-              <img
-                src="./assets/thumbnails/throttle-house-thumbnail.jpg"
-                alt=""
-              />
-            </div>
-
-            <div class="details">
-              <div class="channel-avatar">
-                <img src="./assets/channel-avatars/throttle-house.jpg" />
-              </div>
-              <div class="video-info">
-                <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
-                <p class="video-channel-name">Extra Throttle House</p>
-                <p class="video-views">304K Views • 2 days ago</p>
+              <div class="details">
+                <div class="channel-avatar">
+                  <img src="./assets/channel-avatars/throttle-house.jpg" />
+                </div>
+                <div class="video-info">
+                  <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
+                  <p class="video-channel-name">Extra Throttle House</p>
+                  <p class="video-views">304K Views • 2 days ago</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="video-layout">
-          <div class="video">
-            <div class="thumbnail">
-              <img
-                src="./assets/thumbnails/throttle-house-thumbnail.jpg"
-                alt=""
-              />
-            </div>
-
-            <div class="details">
-              <div class="channel-avatar">
-                <img src="./assets/channel-avatars/throttle-house.jpg" />
+          <div class="video-layout">
+            <div class="video">
+              <div class="thumbnail">
+                <img
+                  src="./assets/thumbnails/throttle-house-thumbnail.jpg"
+                  alt=""
+                />
               </div>
-              <div class="video-info">
-                <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
-                <p class="video-channel-name">Extra Throttle House</p>
-                <p class="video-views">304K Views • 2 days ago</p>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="video-layout">
-          <div class="video">
-            <div class="thumbnail">
-              <img
-                src="./assets/thumbnails/throttle-house-thumbnail.jpg"
-                alt=""
-              />
-            </div>
-
-            <div class="details">
-              <div class="channel-avatar">
-                <img src="./assets/channel-avatars/throttle-house.jpg" />
-              </div>
-              <div class="video-info">
-                <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
-                <p class="video-channel-name">Extra Throttle House</p>
-                <p class="video-views">304K Views • 2 days ago</p>
+              <div class="details">
+                <div class="channel-avatar">
+                  <img src="./assets/channel-avatars/throttle-house.jpg" />
+                </div>
+                <div class="video-info">
+                  <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
+                  <p class="video-channel-name">Extra Throttle House</p>
+                  <p class="video-views">304K Views • 2 days ago</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="video-layout">
-          <div class="video">
-            <div class="thumbnail">
-              <img
-                src="./assets/thumbnails/throttle-house-thumbnail.jpg"
-                alt=""
-              />
-            </div>
-
-            <div class="details">
-              <div class="channel-avatar">
-                <img src="./assets/channel-avatars/throttle-house.jpg" />
+          <div class="video-layout">
+            <div class="video">
+              <div class="thumbnail">
+                <img
+                  src="./assets/thumbnails/throttle-house-thumbnail.jpg"
+                  alt=""
+                />
               </div>
-              <div class="video-info">
-                <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
-                <p class="video-channel-name">Extra Throttle House</p>
-                <p class="video-views">304K Views • 2 days ago</p>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="video-layout">
-          <div class="video">
-            <div class="thumbnail">
-              <img
-                src="./assets/thumbnails/throttle-house-thumbnail.jpg"
-                alt=""
-              />
-            </div>
-
-            <div class="details">
-              <div class="channel-avatar">
-                <img src="./assets/channel-avatars/throttle-house.jpg" />
-              </div>
-              <div class="video-info">
-                <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
-                <p class="video-channel-name">Extra Throttle House</p>
-                <p class="video-views">304K Views • 2 days ago</p>
+              <div class="details">
+                <div class="channel-avatar">
+                  <img src="./assets/channel-avatars/throttle-house.jpg" />
+                </div>
+                <div class="video-info">
+                  <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
+                  <p class="video-channel-name">Extra Throttle House</p>
+                  <p class="video-views">304K Views • 2 days ago</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="video-layout">
-          <div class="video">
-            <div class="thumbnail">
-              <img
-                src="./assets/thumbnails/throttle-house-thumbnail.jpg"
-                alt=""
-              />
-            </div>
-
-            <div class="details">
-              <div class="channel-avatar">
-                <img src="./assets/channel-avatars/throttle-house.jpg" />
+          <div class="video-layout">
+            <div class="video">
+              <div class="thumbnail">
+                <img
+                  src="./assets/thumbnails/throttle-house-thumbnail.jpg"
+                  alt=""
+                />
               </div>
-              <div class="video-info">
-                <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
-                <p class="video-channel-name">Extra Throttle House</p>
-                <p class="video-views">304K Views • 2 days ago</p>
+
+              <div class="details">
+                <div class="channel-avatar">
+                  <img src="./assets/channel-avatars/throttle-house.jpg" />
+                </div>
+                <div class="video-info">
+                  <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
+                  <p class="video-channel-name">Extra Throttle House</p>
+                  <p class="video-views">304K Views • 2 days ago</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="video-layout">
-          <div class="video">
-            <div class="thumbnail">
-              <img
-                src="./assets/thumbnails/throttle-house-thumbnail.jpg"
-                alt=""
-              />
-            </div>
-
-            <div class="details">
-              <div class="channel-avatar">
-                <img src="./assets/channel-avatars/throttle-house.jpg" />
+          <div class="video-layout">
+            <div class="video">
+              <div class="thumbnail">
+                <img
+                  src="./assets/thumbnails/throttle-house-thumbnail.jpg"
+                  alt=""
+                />
               </div>
-              <div class="video-info">
-                <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
-                <p class="video-channel-name">Extra Throttle House</p>
-                <p class="video-views">304K Views • 2 days ago</p>
+
+              <div class="details">
+                <div class="channel-avatar">
+                  <img src="./assets/channel-avatars/throttle-house.jpg" />
+                </div>
+                <div class="video-info">
+                  <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
+                  <p class="video-channel-name">Extra Throttle House</p>
+                  <p class="video-views">304K Views • 2 days ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-layout">
+            <div class="video">
+              <div class="thumbnail">
+                <img
+                  src="./assets/thumbnails/throttle-house-thumbnail.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="details">
+                <div class="channel-avatar">
+                  <img src="./assets/channel-avatars/throttle-house.jpg" />
+                </div>
+                <div class="video-info">
+                  <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
+                  <p class="video-channel-name">Extra Throttle House</p>
+                  <p class="video-views">304K Views • 2 days ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-layout">
+            <div class="video">
+              <div class="thumbnail">
+                <img
+                  src="./assets/thumbnails/throttle-house-thumbnail.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="details">
+                <div class="channel-avatar">
+                  <img src="./assets/channel-avatars/throttle-house.jpg" />
+                </div>
+                <div class="video-info">
+                  <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
+                  <p class="video-channel-name">Extra Throttle House</p>
+                  <p class="video-views">304K Views • 2 days ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-layout">
+            <div class="video">
+              <div class="thumbnail">
+                <img
+                  src="./assets/thumbnails/throttle-house-thumbnail.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="details">
+                <div class="channel-avatar">
+                  <img src="./assets/channel-avatars/throttle-house.jpg" />
+                </div>
+                <div class="video-info">
+                  <p class="video-title">2024 Nissan Z NISMO Quick Review</p>
+                  <p class="video-channel-name">Extra Throttle House</p>
+                  <p class="video-views">304K Views • 2 days ago</p>
+                </div>
               </div>
             </div>
           </div>
