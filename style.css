@@ -48,15 +48,18 @@ body {
   width: 35vw;
   border-radius: 30px 0 0 30px;
   padding: 0 20px;
-  border: solid var(--darker-grey);
+  border: 1.5px solid var(--darker-grey);
 }
 
 .search button {
   cursor: pointer;
   padding: 0 30px;
-  border: solid var(--darker-grey);
+  border: 1.5px solid var(--darker-grey);
   border-left: none;
   border-radius: 0 30px 30px 0;
+}
+.search button:hover {
+  background-color: var(--darker-grey);
 }
 
 .microphone {
@@ -72,6 +75,7 @@ body {
 
 .microphone:hover {
   cursor: pointer;
+  background-color: rgb(170, 170, 170);
 }
 
 .search {
@@ -131,7 +135,7 @@ body {
 }
 
 .footer-links {
-  padding: 16px 24px 0 24px;
+  padding: 16px 15px 0 15px;
 }
 
 .footer-links a {
@@ -152,6 +156,17 @@ body {
 
 .disclaimer a {
   text-decoration: none;
+}
+
+/* right nav icons */
+.navigation-icons span {
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.navigation-icons span:hover {
+  cursor: pointer;
+  background-color: var(--grey);
 }
 
 /* videos */
@@ -203,8 +218,12 @@ body {
 .video-layout {
   flex: 1;
   min-width: 357px;
-  padding: 10px;
+  margin: 10px;
   box-sizing: border-box;
+}
+
+.video-layout:hover {
+  cursor: pointer;
 }
 
 .video {
