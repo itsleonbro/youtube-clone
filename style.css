@@ -189,6 +189,7 @@ input:focus {
   padding: 20px 0;
   position: sticky;
   top: 56px;
+  margin: 0 15px;
   background-color: var(--white);
   display: flex;
   overflow-x: auto;
@@ -227,7 +228,7 @@ input:focus {
 .video-layout {
   flex: 1;
   min-width: 357px;
-  margin: 10px;
+  margin: 20px 15px;
   box-sizing: border-box;
 }
 
